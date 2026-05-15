@@ -45,6 +45,6 @@ PluginComponent {
     }
 
     Component.onCompleted: {
-        console.info("WallpaperCarousel: daemon loaded — use 'dms ipc call wallpaperCarousel toggle' to open");
+        console.info("WallpaperCarousel: daemon loaded — use 'hype ipc call wallpaperCarousel toggle' to open");
     }
 }

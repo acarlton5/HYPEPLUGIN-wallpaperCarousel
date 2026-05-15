@@ -53,11 +53,11 @@ Control the carousel via DMS IPC:
 
 | Command | Description |
 |---------|-------------|
-| `dms ipc wallpaperCarousel toggle` | Open or close the overlay |
-| `dms ipc wallpaperCarousel open` | Open the overlay |
-| `dms ipc wallpaperCarousel close` | Close the overlay |
-| `dms ipc wallpaperCarousel cycleNext` | Open (if closed) and highlight next wallpaper |
-| `dms ipc wallpaperCarousel cyclePrevious` | Open (if closed) and highlight previous wallpaper |
+| `hype ipc wallpaperCarousel toggle` | Open or close the overlay |
+| `hype ipc wallpaperCarousel open` | Open the overlay |
+| `hype ipc wallpaperCarousel close` | Close the overlay |
+| `hype ipc wallpaperCarousel cycleNext` | Open (if closed) and highlight next wallpaper |
+| `hype ipc wallpaperCarousel cyclePrevious` | Open (if closed) and highlight previous wallpaper |
 
 ### Noctalia
 
@@ -92,7 +92,7 @@ binds {
 In `~/.config/hypr/hyprland.conf`:
 
 ```ini
-bind = SUPER, W, exec, dms ipc wallpaperCarousel toggle
-bind = SUPER SHIFT, Right, exec, dms ipc wallpaperCarousel cycleNext
-bind = SUPER SHIFT, Left, exec, dms ipc wallpaperCarousel cyclePrevious
+bind = SUPER, W, exec, hype ipc wallpaperCarousel toggle
+bind = SUPER SHIFT, Right, exec, hype ipc wallpaperCarousel cycleNext
+bind = SUPER SHIFT, Left, exec, hype ipc wallpaperCarousel cyclePrevious
 ```
